@@ -1,0 +1,27 @@
+.nav{
+    height:50px;
+    background: red;
+    padding: 10px;
+}
+.navdiv{
+    display:inline-block;
+    position:absolute;
+    left:0;
+    padding:15px;
+    font-size: 20px;
+    color:white;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav ul li{
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 5px;
+
+}
+.nav ul li a{
+    color: white;
+    padding:5px;
+} 
